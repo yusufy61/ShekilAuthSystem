@@ -5,6 +5,7 @@
 #### 1) JWT Key
 
 - API uygulaması içerisinden appsetttings.json dosyasında bulunan key alanına kendi keyinizi eklemeniz önerilir. (Çalıştırmak için zorunlu değil.)
+- Yeni key en az 64 byte değerinde olmalıdır. (HMac512 için)
 - Sadece güvenlik amacıyla bu işlemi yapıyoruz.
 
 ``` json
